@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             if isTextShowing {
-                Text("Hello, world!")
+                Text("Hello, world! Xcode 12 Branch")
                     .padding()
             } else {
                 /*@START_MENU_TOKEN@*/EmptyView()/*@END_MENU_TOKEN@*/
